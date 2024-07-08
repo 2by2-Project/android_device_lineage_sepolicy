@@ -1,0 +1,6 @@
+type cokeon_app, domain, coredomain;
+
+app_domain(cokeon_app)
+net_domain(cokeon_app)
+
+allow cokeon_app app_data_file:fifo_file { create rw_file_perms };
