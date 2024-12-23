@@ -1,0 +1,2 @@
+# Allow shell to get lineage prop
+get_prop(shell, lineage_prop)
